@@ -6,7 +6,8 @@
         "psr-4": {
             "Ijana\\": "src/",
             "Ijana\\Core\\":"src/core/",
-            "Ijana\\Home\\":"src/home/"
+            "Ijana\\Home\\":"src/home/",
+            "Ijana\\Timetable\\":"src/timetable/"
         }
     },
     "authors": [
