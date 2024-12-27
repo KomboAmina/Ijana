@@ -24,7 +24,7 @@ if(isset($_GET['txtamount'])){
 
 </div>
 
-<form method="get" action="<?php echo URL."timetable/";?>" class="m-4">
+<form method="get" action="<?php echo URL."timetable/";?>#now" class="m-4">
 
     <input type="hidden" name="tab" value="timetable"/>
 
