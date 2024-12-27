@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="icon" type="image/x-icon" href="<?php echo URL;?>public/img/favicon.jpg">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo ucwords($this->route);?> &rarr; <?php echo APPNAME;?></title>

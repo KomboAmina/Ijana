@@ -2,7 +2,15 @@
 
 <div class="row justify-content-start">
 
-<div class="col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-sm-12 col-md-2">
+  <div class="container">
+    <div class="d-grid">
+      <a href="<?php echo FILEDIR.DS;?>Ijana v01 Manual.pdf"
+      title="download manual"
+        class="btn btn-sm btn-primary rounded-4" target="_blank" download>Manual</a>
+    </div>
+  </div>
+</div>
 
 <div class="col-sm-12 col-md-10">
 
