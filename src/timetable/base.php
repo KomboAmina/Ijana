@@ -25,13 +25,7 @@ $fullTotal=0;
 </section>
 <section class="h-50 scrollable-y mb-4 mt-0 table-responsive">
     
-<table class="table table-bordered"><!--
-    <thead>
-        <tr><th width="15%">Date</th>
-            <th width="10%" class="text-center">Week</th>
-            <th class="text-end">Weekly Deposit Amount (KES)</th>
-            <th class="text-end">Total Deposit Amount (KES)</th></tr>
-    </thead>-->
+<table class="table table-bordered">
     <tbody>
         <?php foreach($timetable as $row){
             $fullTotal=$row['total'];
