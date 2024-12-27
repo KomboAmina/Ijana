@@ -4,7 +4,9 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Komboamina\\Ijana\\": "src/"
+            "Ijana\\": "src/",
+            "Ijana\\Core\\":"src/core/",
+            "Ijana\\Home\\":"src/home/"
         }
     },
     "authors": [
@@ -13,5 +15,7 @@
             "email": "kombo.work@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twbs/bootstrap": "^5.3"
+    }
 }

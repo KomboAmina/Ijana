@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Trap-Regular';
+    src: url(../fonts/Trap-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trap-ExtraBold';
+    src: url(../fonts/Trap-ExtraBold.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+main{
+
+    font-family:'Trap-Regular', Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color:#0e0806;
+}
+
+h1, h2, h3, h4, h5, h6, th, .quote{
+    font-family:'Trap-ExtraBold', Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+a{
+    color: #0e0e0e;
+    border-color:#0e0806;
+    font-weight:bold;
+}
+
+.btn, .nav-pills .nav-link{
+    text-transform:uppercase;
+    font-weight:bold;
+    line-height:0.5em;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:2em;
+    padding-right:2em;
+    color:#0e0806;
+}
+
+.nav-pills .nav-link{
+    font-size:0.76em;
+}
+
+.nav-pills .nav-item .active, .nav-pills .nav-link:hover{
+    color:#f5f1e6;
+    background: rgb(14,8,6);
+    background: linear-gradient(332deg, rgba(14,8,6,1) 0%, rgba(38,38,35,1) 100%);
+}
+
+.h-75{
+    min-height:75vh;
+    max-height:75vh;
+    overflow-y:hidden;
+}
+
+.h-60{
+    min-height:60vh;
+    max-height:60vh;
+    overflow-y:hidden;
+}
+
+.h-62_5{
+    min-height:62.5vh;
+    max-height:62.5vh;
+    overflow-y:hidden;
+}
+
+.h-50{
+    min-height:50vh;
+    max-height:50vh;
+    overflow-y:hidden;
+}
+
+.scrollable-y{
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.paynow, .paynow tr td{
+    text-transform:uppercase;
+    font-family:'Trap-ExtraBold', Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    transition:ease all 0.5s;
+}
+
+.btn-dark{
+    color:rgb(255,198,62);
+}
+
+.btn-primary, .bg-warning{
+    color:#0e0806;
+    border:none;
+    background: rgb(255,74,74);
+background: linear-gradient(-90deg, rgba(255,74,74,1) 0%, rgba(255,198,62,1) 50%, rgba(255,117,19,1) 100%);
+}
+
+.btn-primary:hover{
+    color:#0e0806;
+    background: rgb(255,74,74);
+    background: linear-gradient(90deg, rgba(255,74,74,1) 0%, rgba(255,198,62,1) 50%, rgba(255,117,19,1) 100%);
+}
+
+.bg-dark, .btn-dark{
+    background: rgb(14,8,6);
+    background: linear-gradient(332deg, rgba(14,8,6,1) 0%, rgba(38,38,35,1) 100%);
+}
+
+.table td, .table th{
+    border:1.24px solid #0e0806;
+    text-transform:uppercase;
+}
+
+.form-control{
+    opacity:0.72;
+}
+
+.form-control:hover, .form-control:focus{
+    opacity:1;
+}
