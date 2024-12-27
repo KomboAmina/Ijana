@@ -7,7 +7,8 @@
             "Ijana\\": "src/",
             "Ijana\\Core\\":"src/core/",
             "Ijana\\Home\\":"src/home/",
-            "Ijana\\Timetable\\":"src/timetable/"
+            "Ijana\\Timetable\\":"src/timetable/",
+            "Ijana\\Spreadsheet\\":"src/spreadsheet/"
         }
     },
     "authors": [

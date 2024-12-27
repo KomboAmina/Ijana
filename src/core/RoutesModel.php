@@ -28,7 +28,7 @@ class RoutesModel{
 
     public function getValidRoutes():array{
 
-        return array("home","timetable","spreadsheets","frame","about");
+        return array("home","timetable","spreadsheet","frame","about");
 
     }
 
