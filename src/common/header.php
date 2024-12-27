@@ -13,7 +13,7 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-sm-12 col-md-8">
+            <div class="col-sm-12 col-md-9">
 
                 <!--nav-->
 
