@@ -21,7 +21,8 @@
 
                     <div class="col-sm-12 col-md-2">
 
-                    <div class="container"><a href="<?php echo URL;?>home/">
+                    <div class="container">
+                        <a href="<?php echo URL;?>home/<?php echo $navLink;?>">
                         <img src="<?php echo URL;?>public/img/logo.png"
                         height="50px"
                         alt="logo for Ijana"
