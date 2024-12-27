@@ -37,7 +37,8 @@
 
                 <div class="text-center d-grid">
 
-                    <a href="<?php echo FILEDIR;?>52 Weeks Challenge Spreadsheet.xlsx" class="btn btn-dark rounded-4" download>Download</a>
+                    <a href="<?php echo FILEDIR.DS;?>52 Weeks Challenge Spreadsheet.xlsx"
+                     class="btn btn-dark rounded-4" download>Download</a>
 
                 </div>
 
@@ -63,7 +64,8 @@
 
                 <div class="text-center d-grid">
 
-                    <a href="<?php echo FILEDIR;?>52 Weeks Challenge Spreadsheet.ods" class="btn btn-primary rounded-4" download>Download</a>
+                    <a href="<?php echo FILEDIR.DS;?>52 Weeks Challenge Spreadsheet.ods"
+                     class="btn btn-primary rounded-4" download>Download</a>
 
                 </div>
 
